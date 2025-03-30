@@ -21,7 +21,7 @@ export default function Home() {
 
             {/* Navigation Links - Centered */}
             <div className="flex-1 flex justify-center">
-              <NavigationMenuList className="flex space-x-4">
+              <NavigationMenuList className="flex space-x-2">
                 <NavigationMenuItem>
                   <NavigationMenuLink asChild>
                     <Link href="/">Home</Link>
