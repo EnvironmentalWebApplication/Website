@@ -1,7 +1,13 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navigation from "@/components/ui/navigation-menu"; // Import the navbar
+import {
+    NavigationMenu,
+    NavigationMenuItem,
+    NavigationMenuList,
+    NavigationMenuLink,
+} from "@/components/ui/navigation-menu";
+import Link from "next/link";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -25,11 +31,43 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-        <body
-            className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        >
-        <Navigation /> {/* Add the navbar here */}
-        <main className="min-h-screen flex flex-col">{children}</main>
+        <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        {/* Fixed Navigation Menu */}
+        <header className="fixed top-0 left-0 w-full bg-background border-b border-border z-50">
+            <NavigationMenu className="container p-4 flex items-center">
+                {/* Logo - Hidden on small screens, visible on md+ */}
+                <div className="hidden md:flex items-center mr-10">
+                    <img src="/RPILogo.png" alt="Logo" className="h-8 w-auto mr-4" />
+                    <img src="/parkLogo.png" alt="Logo" className="h-8 w-auto" />
+                </div>
+
+                {/* Navigation Links - Centered */}
+                <div className="flex-1 flex justify-center">
+                    <NavigationMenuList className="flex space-x-2">
+                        <NavigationMenuItem>
+                            <NavigationMenuLink asChild>
+                                <Link href="/">Home</Link>
+                            </NavigationMenuLink>
+                        </NavigationMenuItem>
+                        <NavigationMenuItem>
+                            <NavigationMenuLink asChild>
+                                <Link href="/project-overview">Project Overview</Link>
+                            </NavigationMenuLink>
+                        </NavigationMenuItem>
+                        <NavigationMenuItem>
+                            <NavigationMenuLink asChild>
+                                <Link href="/data">Data</Link>
+                            </NavigationMenuLink>
+                        </NavigationMenuItem>
+                    </NavigationMenuList>
+                </div>
+            </NavigationMenu>
+        </header>
+
+        {/* Page Content with padding to prevent overlap */}
+        <main className="min-h-screen flex flex-col pt-[72px]">
+            {children}
+        </main>
         </body>
         </html>
     );
