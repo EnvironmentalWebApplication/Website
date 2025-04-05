@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Research Project Website
 
-## Getting Started
+This project provides a website showcasing a research project focused on environmental data collection from Long Pond 
+in Grafton Lakes State Park. It includes interactive visualizations powered by a Shiny app and pages with detailed 
+information about the project and how to access the data.
 
-First, run the development server:
+![Project Website Screenshot](public/pictureOfWebsite.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Main Page:** Features a Shiny app displaying interactive visualizations.
+- **Project Overview Page:** Provides detailed information about the project's purpose, including images and descriptions of the lake and research process.
+- **Data Page:** Includes a citation for the research and a link to access the dataset on the EDI data portal.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How to Run Locally
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone the repository:
+   ```bash
+   https://github.com/EnvironmentalWebApplication/Website.git
 
-## Learn More
+2. Navigate to the project directory:
+   ```bash
+   cd Website
 
-To learn more about Next.js, take a look at the following resources:
+3. Install the necessary dependencies:
+   ```bash
+   npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Install the necessary dependencies:
+   ```bash
+   npm run dev

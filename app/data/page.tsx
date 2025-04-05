@@ -11,7 +11,7 @@ export default function DataPage() {
                     {/* Data Access Section */}
                     <h2 className="text-xl font-semibold mb-4">Data Access</h2>
                     <p className="mb-6">
-                        You can access and download the dataset from the EDI data portal by following the link below:&nbsp;
+                        You can access and download the dataset from the EDI data portal by following the link:&nbsp;
                         <a href="https://portal.edirepository.org/nis/mapbrowse?packageid=edi.1958.newest" target="_blank" className="text-blue-600 underline">
                             EDI Data Portal
                         </a>

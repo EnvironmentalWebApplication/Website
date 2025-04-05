@@ -30,7 +30,7 @@ export default function ProjectOverviewPage() {
                             className="w-full max-w-[2048px] h-auto mb-2"
                         />
                         <p className="text-center text-sm italic mb-8">
-                            A view of the lake where the project takes place.
+                            A view of Long Pond in Grafton Lakes State Park where the research takes place.
                         </p>
                     </div>
 
