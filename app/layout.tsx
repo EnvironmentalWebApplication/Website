@@ -46,7 +46,7 @@ export default function RootLayout({
                     <NavigationMenuList className="flex space-x-2">
                         <NavigationMenuItem>
                             <NavigationMenuLink asChild>
-                                <Link href="/">Home</Link>
+                                <Link href="/">Data Visualization</Link>
                             </NavigationMenuLink>
                         </NavigationMenuItem>
                         <NavigationMenuItem>
