@@ -10,7 +10,7 @@ information about the project and how to access the data.
 
 - **Main Page:** Features a Shiny app displaying interactive visualizations.
 - **Project Overview Page:** Provides detailed information about the project's purpose, including images and descriptions of the lake and research process.
-- **Data Page:** Includes a citation for the research and a link to access the dataset on the EDI data portal.
+- **Data Access Page:** Includes a citation for the research and a link to access the dataset on the EDI data portal.  Also details how the data is collected.
 
 ## How to Run Locally
 
