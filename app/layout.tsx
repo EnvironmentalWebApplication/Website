@@ -56,7 +56,7 @@ export default function RootLayout({
                         </NavigationMenuItem>
                         <NavigationMenuItem>
                             <NavigationMenuLink asChild>
-                                <Link href="/data">Data</Link>
+                                <Link href="/data-access">Data Access</Link>
                             </NavigationMenuLink>
                         </NavigationMenuItem>
                     </NavigationMenuList>

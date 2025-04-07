@@ -23,38 +23,38 @@ export default function ProjectOverviewPage() {
                     </p>
 
                     {/* Lake Image and Text */}
-                    <div className="flex flex-col items-center mb-8">
+                    <div className="flex flex-col items-center mb-4">
                         <img
                             src="/lake.png"
                             alt="Lake for the Project"
                             className="w-full max-w-[2048px] h-auto mb-2"
                         />
-                        <p className="text-center text-sm italic mb-8">
+                        <p className="text-center text-sm italic mb-2">
                             A view of Long Pond in Grafton Lakes State Park where the research takes place.
                         </p>
                     </div>
 
-                    {/* Images: Sensor Diagram and Deployed Buoy */}
-                    <div className="grid grid-cols-2 gap-6 mb-8">
+                    {/* Images: Students Preparing for Deployment and Students Working */}
+                    <div className="grid grid-cols-2 gap-6z">
                         <div className="flex flex-col items-center">
                             <img
-                                src="/sensorDiagram.png"
-                                alt="Sensor Diagram"
+                                src="/studentsPreparingForDeployment.png"
+                                alt="Students Preparing for Deployment"
                                 className="w-full max-w-[600px] h-auto mb-2"
                             />
                             <p className="text-center text-sm italic">
-                                Diagram of sensor network at Long Pond. Measurements are recorded 24 hours a
-                                day, 7 days a week!
+                                Team preparing for sensor deployment.  Undergraduates students Isabella Knazik and
+                                Isabelle Gelzhiser working with Dr. Jonathan Stetler.
                             </p>
                         </div>
                         <div className="flex flex-col items-center">
                             <img
-                                src="/deployedBuoy.png"
-                                alt="Deployed Buoy"
+                                src="/studentsWorking.png"
+                                alt="Students Working"
                                 className="w-full max-w-[600px] h-auto mb-2"
                             />
                             <p className="text-center text-sm italic">
-                                Sensor hard at work at Long Pond.
+                                RPI undergraduate students get hands-on experience.
                             </p>
                         </div>
                     </div>
