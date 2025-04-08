@@ -37,8 +37,8 @@ export default function RootLayout({
             <NavigationMenu className="container p-4 flex items-center">
                 {/* Logo - Hidden on small screens, visible on md+ */}
                 <div className="hidden md:flex items-center mr-10">
-                    <img src="/RPILogo.png" alt="Logo" className="h-8 w-auto mr-4" />
-                    <img src="/parkLogo.png" alt="Logo" className="h-8 w-auto" />
+                    <img src="/Website/RPILogo.png" alt="Logo" className="h-8 w-auto mr-4" />
+                    <img src="/Website/parkLogo.png" alt="Logo" className="h-8 w-auto" />
                 </div>
 
                 {/* Navigation Links - Centered */}

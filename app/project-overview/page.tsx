@@ -25,7 +25,7 @@ export default function ProjectOverviewPage() {
                     {/* Lake Image and Text */}
                     <div className="flex flex-col items-center mb-4">
                         <img
-                            src="/lake.png"
+                            src="/Website/lake.png"
                             alt="Lake for the Project"
                             className="w-full max-w-[2048px] h-auto mb-2"
                         />
@@ -38,7 +38,7 @@ export default function ProjectOverviewPage() {
                     <div className="grid grid-cols-2 gap-6z">
                         <div className="flex flex-col items-center">
                             <img
-                                src="/studentsPreparingForDeployment.png"
+                                src="/Website/studentsPreparingForDeployment.png"
                                 alt="Students Preparing for Deployment"
                                 className="w-full max-w-[600px] h-auto mb-2"
                             />
@@ -49,7 +49,7 @@ export default function ProjectOverviewPage() {
                         </div>
                         <div className="flex flex-col items-center">
                             <img
-                                src="/studentsWorking.png"
+                                src="/Website/studentsWorking.png"
                                 alt="Students Working"
                                 className="w-full max-w-[600px] h-auto mb-2"
                             />

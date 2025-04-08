@@ -30,7 +30,7 @@ export default function DataPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                         <div className="flex flex-col items-center">
                             <img
-                                src="/sensorDiagram.png"
+                                src="/Website/sensorDiagram.png"
                                 alt="Sensor Diagram"
                                 className="w-full max-w-[600px] h-auto mb-2"
                             />
@@ -41,7 +41,7 @@ export default function DataPage() {
                         </div>
                         <div className="flex flex-col items-center">
                             <img
-                                src="/deployedBuoy.png"
+                                src="/Website/deployedBuoy.png"
                                 alt="Deployed Buoy"
                                 className="w-full max-w-[600px] h-auto mb-2"
                             />
