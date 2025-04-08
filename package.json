@@ -2,11 +2,9 @@
   "name": "ewa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://EnvironmentalWebApplication.github.io/website",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "export": "next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -34,5 +32,6 @@
     "eslint-config-next": "15.2.4",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "homepage": "https://EnvironmentalWebApplication.github.io/website"
 }
