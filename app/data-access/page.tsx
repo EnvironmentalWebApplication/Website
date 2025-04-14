@@ -27,6 +27,14 @@ export default function DataPage() {
 
                     {/* Images: Sensor Diagram and Deployed Buoy */}
                     <h2 className="text-xl font-semibold mb-4 text-left">How the data was collected</h2>
+                    <p className="mb-6">
+                        High-frequency data were collected using sensors attached to a rope deployed from a buoy at
+                        the lake’s deepest point. Dissolved oxygen and temperature were recorded every 10 minutes at
+                        depths ranging from 1.52 to 7.52 meters. A water level sensor, placed at 4.52 meters, recorded
+                        data every 12 hours. Manual sampling occurred every 2–4 weeks and included measurements of
+                        nutrients, dissolved organic carbon, chlorophyll-a, Secchi depth, and additional temperature
+                        and dissolved oxygen readings using a YSI probe.
+                    </p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                         <div className="flex flex-col items-center">
                             <img
