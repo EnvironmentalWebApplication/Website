@@ -6,7 +6,7 @@ export default function Home() {
         {/* Full-screen iframe */}
         <main className="flex-grow">
           <iframe
-              src="https://environmentalwebapplication.shinyapps.io/rshinyapp/"
+              src="https://stetleraquaticlab.shinyapps.io/rshinyapp/"
               className="w-full h-full border-none"
               title="Environmental Web Application"
           ></iframe>
